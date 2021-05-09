@@ -8,6 +8,9 @@ export default {
   },
   ios: {
     bundleIdentifier: 'com.nitroclik.plannertravelapp'
+  },
+  android: {
+    package: 'com.nitroclik.plannertravelapp'
   }
   
 }
