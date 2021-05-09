@@ -17,9 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
+      "supportsTablet": false,
       "bundleIdentifier": "com.nitroclik.plannertravelapp",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.0",
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "backgroundColor": "#ffffff"
+      }
     },
     "android": {
       "package": "com.nitroclik.plannertravelapp",
@@ -27,6 +32,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "splash": {
+        "image": "./assets/splash.png",
+        "backgroundColor": "#ffffff"
       }
     },
     "web": {
